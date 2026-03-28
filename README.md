@@ -13,7 +13,7 @@
 
 ## What this is
 
-The Execution Intelligence Framework is a methodology for making 
+The Execution Intelligence Framework (EIF) is a methodology for making 
 AI-augmented operations accurate. Not by improving the AI, but by 
 ensuring the operating model beneath it is worth reading.
 
@@ -29,6 +29,8 @@ the specific tools, naming conventions, or process designs. Those are
 decisions each organization makes and commits to invariantly. The agent layer 
 depends on that invariance. Without it, accuracy degrades.
 
+EIF is not an SDLC methodology, a product lifecycle framework, or a project management process. It is the execution operating model that sits above those processes, complementing any development or product methodology already in use, not replacing it. SDLC governs how you build. PLC governs what you launch. EIF governs whether you are building and launching the right things, with the right confidence, at the right time, and whether your operational agents can be trusted when they tell you something is at risk.
+
 *Agility is earned through execution excellence, not avoided by it.*
 
 ---
@@ -41,8 +43,7 @@ The framework operates as a stack:
   process pillars: Prioritization, Planning, Dependency governance, Change 
   governance, Risk intelligence
 - **Operational agents** — A coordinated family of AI agents that read the 
-  operating model to surface delivery intelligence, propose decisions, and 
-  route consequential actions to human confirmation
+  operating model to surface delivery intelligence, propose decisions, detect and help navigate risk, map dependency relationships real-time, govern change before it lands, monitor planning confidence, manage trade-offs, and route consequential actions to human confirmation
 - **Trusted Operator** — The person accountable for operating model integrity, 
   agent calibration, and ensuring the right agreements happen between the 
   right parties
@@ -56,8 +57,8 @@ The framework operates as a stack:
 
 | File | Description |
 |------|-------------|
-| `EIF_v2.5.pdf` | Full framework document |
-| `EIF_Value_Chain.png` | Architecture diagram |
+| `Execution_Intelligence_Framework_v2.5_Carina_Harper.pdf` | Full framework document |
+| `valuechaindiagramv3_doc_version.png` | Architecture diagram |
 | `CHANGELOG.md` | Version history |
 | `LICENSE` | CC BY 4.0 — free to use with attribution |
 
@@ -109,7 +110,7 @@ full operational agent family:
 ## Who this is for
 
 - Engineering and product leaders at scaled organizations deploying AI 
-  into delivery operations
+  into delivery operations, regardless of methodology/process (e.g. SDLC, SAFe, Agile, waterfall)
 - Trusted Operators — the people accountable for whether AI-augmented 
   operations produce signal or noise
 - Organizations building agentic products on top of delivery workflows
