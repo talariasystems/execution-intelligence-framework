@@ -1,24 +1,59 @@
 # Changelog
 
 ## v2.5 — March 2026
+
+### Major additions
+- Added Section 2: What Kind of Framework Is This? — establishes EIF 
+  as functionally agnostic to SDLC, PLC, and SAFe; positions EIF as 
+  the execution operating model that sits above and complements any 
+  development or product methodology
+- Added operational agents definition and framing throughout
+- Added functional boundary transformation paragraph — AI collapsing 
+  sequential Product/Design/Engineering into overlapping iteration 
+  cycles; EIF's agnostic position relative to that shift
+- Added Section 8: In Closing — thesis landing, Trusted Operator 
+  framing, open-source and consulting CTA
+- Added eval set framing to Section 5.2 feedback loop
+- Added ROI analysis to Section 7.2 OKR attribution view
+- Added coverage check to Section 7.1 investment portfolio view
+
+### Structural changes
 - Consolidated Framework Architecture into The Operating Model section
-- Added operational agents terminology throughout
-- Renamed section structure: 2. The Operating Model (Principles, 
-  Normalized Taxonomy, Pillars 1–5)
-- Updated Trusted Operator role language — role-agnostic
-- Tightened Pillar 1: rank model produces focus and sequencing of work as its output
-- Executive Summary revised to thesis-led opening
-- Value chain diagram updated
+- Renumbered all sections to reflect consolidation
+- Removed redundant annotation subsections — content absorbed into 
+  pillar definitions
+- Supporting workflow callouts updated throughout
+
+### Language and terminology
+- "Agent family" and "specialist agents" replaced with 
+  "operational agents" throughout
+- Trusted Operator role language updated — role-agnostic, 
+  not anchored to TPM title
+- Pillar 1 tightened: rank model produces focus as its output
+- Pillar 5 hedging language removed — rank weighting stated directly
+- Maturity table column headers updated: "Reliable agent capabilities 
+  available" and "Not yet reliable at this level"
+- OKR attribution view moved to Level 2 in maturity model
+- Minimum field discipline added as Level 2 condition
+
+### Fixes
+- Removed stray character from cover page
+- Fixed duplicate "Workflow adjustment" label in Section 5.2 — 
+  fourth component correctly labeled "Validation"
+- Fixed hero workflow timeline — Tuesday afternoon scenario, 
+  Wednesday morning executive query
+- Fixed talaria.systems URL in closing section
 
 ## v2.4 — March 2026
 - Removed redundant annotation sections
 - Renumbered sections post-consolidation
 - Added 2.1 Principles and 2.2 Normalized Taxonomy headings
+- Trusted Operator replaces maestro throughout
 
 ## v2.3 — March 2026
-- Trusted Operator replaces orchestrator throughout
 - Executive Summary updated with core thesis opening
-- Value chain diagram v7 finalized
+- Value chain diagram updated
+- Value chain framing paragraphs added
 
 ## v1.0 — March 2026
 - Initial publication
